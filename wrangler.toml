@@ -1,0 +1,81 @@
+name = "create-account-cybercrowd-entry"
+compatibility_date = "2026-09-13"
+
+workers_dev = false
+preview_urls = false
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+[assets]
+directory = "."
+not_found_handling = "none"
+
+[[routes]]
+pattern = "cybercrowd.net/create-account.css*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/create-account-projections.css*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/create-account-*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/entry-*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/turnstile-one-*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/turnstile-two-*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/turnstile-three-*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/human-verify-*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/returning-*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/vault-members-only-click.js*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/vault-returning-member-turnstile.js*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/placard-swipe.js*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/request-entry-client.js*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/check-email.css*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/js/check-email-overlay.js*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/js/setup-password.js*"
+zone_name = "cybercrowd.net"
+
+[[routes]]
+pattern = "cybercrowd.net/uidl-control-deck-entry.js*"
+zone_name = "cybercrowd.net"
